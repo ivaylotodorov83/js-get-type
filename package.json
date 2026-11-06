@@ -1,0 +1,39 @@
+{
+  "name": "js-get-type",
+  "version": "1.0.0",
+  "description": "High-performance, granular JavaScript type-checking utility.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivaylotodorov83/js-get-type.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivaylotodorov83/js-get-type/issues"
+  },
+  "homepage": "https://github.com/ivaylotodorov83/js-get-type#readme",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "type",
+    "typeof",
+    "type-check",
+    "type-checking",
+    "inspector",
+    "utility"
+  ],
+  "author": "Ivaylo Todorov",
+  "license": "MIT"
+}
